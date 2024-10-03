@@ -25,7 +25,7 @@ def encode_image_to_base64(image_path):
 
 
 # Streamlit 
-st.set_page_config(page_title='Tablero Inteligente')
+st.set_page_config(page_title='Tablero del futuro')
 st.title('Tablero Inteligente')
 with st.sidebar:
     st.subheader("Acerca de:")
@@ -53,8 +53,8 @@ canvas_result = st_canvas(
     stroke_width=stroke_width,
     stroke_color=stroke_color,
     background_color=bg_color,
-    height=300,
-    width=400,
+    height=800,
+    width=900,
     #background_image= None #Image.open(bg_image) if bg_image else None,
     drawing_mode=drawing_mode,
     key="canvas",
